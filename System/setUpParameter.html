@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>设置系统参数</h1>
+	<from>
+	<li>
+	
+		<form id="1">
+			教学大纲参数
+			<div></div>
+			截至时间：<input form="form1" type="date" value="2015/11/11" maxlength="100" id="deadlineDate1" />
+				  <input form="form1" type="time" value="" maxlength="100" id="deadlineTime1" />
+			延期时间:<input form="form1" type="date" value="" maxlength="100" id="postponeDate1" />
+				  <input form="form1" type="time" value="" maxlength="100" id="postponeTime1" />
+				  <input form="form1" type="button" value="提交修改" onclick="submit1()" />
+				  <input form="form1" id="type1" type="hidden" value="1" />
+		</form>
+		
+	</li>
+	<li>
+		<form id="2">
+			教学日历参数
+			<div id="form2"></div>
+			截至时间：<input form="form2" type="date" value="" maxlength="100" id="deadlineDate2" />
+				  <input form="form2" type="time" value="" maxlength="100" id="deadlineTime2" />
+			延期时间:<input form="form2" type="date" value="" maxlength="100" id="postponeDate2" />
+				  <input form="form2" type="time" value="" maxlength="100" id="postponeTime2" />
+				  <input form="form2" type="button" value="提交修改" onclick="submit2()" />
+				  <input form="form2" id="type2" type="hidden" value="2" />
+		</form>
+	</li>
+	<li>
+		<form id="3">
+			考核材料参数
+			<div id="form3"></div>
+			截至时间：<input form="form3" type="date" value="" maxlength="100" id="deadlineDate3" />
+				  <input form="form3" type="time" value="" maxlength="100" id="deadlineTime3" />
+			延期时间:<input form="form3" type="date" value="" maxlength="100" id="postponeDate3" />
+				  <input form="form3" type="time" value="" maxlength="100" id="postponeTime3" />
+				  <input form="form3" type="button" value="提交修改" onclick="submit3()" />
+				  <input form="form3" id="type3" type="hidden" value="3" />
+		</form>
+	</li>
+</body>
+<script type="text/javascript" src="../js/jquery-2.1.0.js"></script>
+<script type="text/javascript" src="setUpParameter.js"></script>
+</html>
